@@ -1,0 +1,62 @@
+
+.margin { 
+    border: 10px ridge red;
+}
+.marginspace {
+    margin:60px; 
+    position: sticky; top: 10px;
+}
+.border {
+    border: 5px double yellow;
+}
+.float-left {
+    float: left;
+}
+nav {
+    background-color: aqua;
+}
+a:link{
+    text-decoration: none;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    background-color: antiquewhite;
+    text-decoration: underline;
+}
+.nav-left {
+    float: left;
+}
+.nav-right {
+    float: right
+}
+.clearfloats {
+    clear: both;
+}
+.nav-right, .nav-left {
+    margin-top: 0px;
+    margin-right: 20px;
+    list-style-type: none;
+}
+nav, footer {
+    height: 50px; text-align: center; padding: 0px; margin: 10px; 
+    box-shadow: 5px 5px limegreen;
+}
+section, article {
+    height: 400px; text-align: center; padding: 0px; margin: 10px; 
+    box-shadow: 5px 5px limegreen
+}
+aside {
+    height: 824px; text-align: center; padding: 0px; margin: 10px; 
+    box-shadow: 5px 5px limegreen;
+}
+#section-article_column {
+    width: 65%;
+}
+#aside_column {
+    width: 35%;
+}
+h1, h2, h3 {
+    text-shadow: 5px 5px gray;
+}
